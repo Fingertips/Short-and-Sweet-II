@@ -1,0 +1,21 @@
+== Short is Sweet II
+
+1. Why?
+  * Less (or actually ‘lean’) code is more time for other stuff (equals profit). Because:
+    * Maintainable code: As it improves readability, thus more understandable.
+    * Code quality: Less code means less bugs, increases testability, and makes it easier to debug.
+    * Easier integration: Less code means less interface, which in turn means it's easier to integrate into different systems.
+
+2. How?
+  * Only implement what you need… right now!
+    * For instance, most of our plugins start life as a file in ./lib. Or in ./vendor/plugins, but still in the applications repo.
+  * Dare to throw away unused code. Or move the code into the only application _actually_ using it.
+    As it meant that the code wasn't that general at all.
+
+3. Yeah, but…
+  * Encapsulation: A lack of encapsulation in the future does not have to be a problem.
+    Especially in a language such as Ruby where, for instance, duck-typing is easily done.
+
+== Examples
+
+* composed_of vs attribute-view
