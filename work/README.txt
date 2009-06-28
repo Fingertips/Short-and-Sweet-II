@@ -1,0 +1,2 @@
+- Short and sweet(| 2).rb are simplified examples of how the Chars proxy shrunk somewhere between Rails version 1 and 2.
+- Short and sweet.key is my old presentation
