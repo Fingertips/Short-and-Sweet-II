@@ -42,7 +42,7 @@ module ActiveRecord
 end
 
 def inspect_resource(resource)
-  p resource
+  p resource.network_address, resource.cidr_range
   p resource.cidr
   puts
 end
